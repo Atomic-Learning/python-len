@@ -1,0 +1,17 @@
+{
+    "title": "Python: Strings - Length",
+    "slug": "python-strings-length",
+    "description": "Using the len() function to find the length of a string (the number of characters it contains).",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 3,
+    "prerequisites": [
+        "python-strings-introduction",
+        "programming, calling-functions"
+    ],
+    "related": []
+}

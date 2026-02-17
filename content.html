@@ -1,0 +1,26 @@
+
+<p>The <strong>length</strong> of a string is the number of characters it contains. You find the length using the <code class="language-python">len()</code> function:</p>
+
+<h2>Basic Usage</h2>
+
+<py-cell>print(len("hello"))
+print(len("Python"))
+print(len(""))
+print(len("Hello world"))</py-cell>
+
+<h2>With Variables</h2>
+
+<p>You can call the <code class="language-python">len</code> function and pass a string as an argument:</p>
+
+<py-cell>word = "example"
+length = len(word)
+
+print(length)
+print(type(length))</py-cell>
+
+<h2>Important: Spaces and Special Characters Count</h2>
+
+<p>Don't forget that spaces and special characters are counted:</p>
+
+<py-cell>phrase = "A B C!" # 3 letters, 2 spaces, 1 punctuation = 6 characters total
+print(len(phrase))</py-cell>
