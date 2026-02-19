@@ -1,26 +1,20 @@
+<p>The <code class="language-python">len()</code> function is a built-in function in Python that returns the number of items in a collection. It can be used with various types of collections, including collections like strings, lists, dictionaries and sets. Here, we'll use strings and lists as an example.</p>
 
-<p>The <strong>length</strong> of a string is the number of characters it contains. You find the length using the <code class="language-python">len()</code> function:</p>
+<h2>Usage</h2>
 
-<h2>Basic Usage</h2>
+To find the number of items in a collection, you can simply pass the collection as an argument to the <code class="language-python">len()</code> function. For example:
 
-<py-cell>print(len("hello"))
-print(len("Python"))
-print(len(""))
-print(len("Hello world"))</py-cell>
+<py-cell>string1 = "Hello, World!"
+print(len(string1))
 
-<h2>With Variables</h2>
+list1 = [0, 1, 2, 3, 4]
+print(len(list1))</py-cell>
 
-<p>You can call the <code class="language-python">len</code> function and pass a string as an argument:</p>
+The returned value will be an integer representing the number of characters in the string or the number of items in the list.
 
-<py-cell>word = "example"
-length = len(word)
+<h2>Special Characters in Strings</h2>
 
-print(length)
-print(type(length))</py-cell>
+Special characters in strings, such as spaces, punctuation, and escape characters, are also counted as individual characters when using the <code class="language-python">len()</code> function. For example:
 
-<h2>Important: Spaces and Special Characters Count</h2>
-
-<p>Don't forget that spaces and special characters are counted:</p>
-
-<py-cell>phrase = "A B C!" # 3 letters, 2 spaces, 1 punctuation = 6 characters total
-print(len(phrase))</py-cell>
+<py-cell>string1 = "Hello, World!"
+print(len(string1))</py-cell>
