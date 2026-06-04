@@ -1,8 +1,8 @@
-The `len()`{.python}` function is a built-in function in Python that returns the number of items in a collection. It can be used with various types of collections, including strings, lists, dictionaries and sets. Here, we'll use strings and lists as an example.
+The `len()`{.python} function is a built-in function in Python that returns the number of items in a collection. It can be used with various types of collections, including strings, lists, dictionaries and sets. Here, we'll use strings and lists as an example.
 
 ## Usage
 
-To find the number of items in a collection, you can simply pass the collection as an argument to the <code class="language-python">len()</code> function. For example:
+To find the number of items in a collection, you can simply pass the collection as an argument to the `len()`{.python} function. For example:
 
 ```py-cell
 string1 = "Hello, World!"
